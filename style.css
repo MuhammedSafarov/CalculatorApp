@@ -60,9 +60,11 @@ body {
   font-weight: bold;
   font-size: 15px;
 }
-.number,
-.empty {
+.number {
   background-color: #eaedef;
+}
+.empty{
+    background-color: transparent;
 }
 .operator {
   background-color: lightgrey;
@@ -71,3 +73,25 @@ body {
 .operator {
   cursor: pointer;
 }
+.operator:nth-child(1){
+    background-color: red;
+}
+.operator:nth-child(4) {
+    font-size: 20px;
+    background-color: orange;
+}
+.operator:nth-child(8) {
+    font-size: 20px;
+    background-color: orange;}
+
+.operator:nth-child(12) {
+    font-size: 20px;
+    background-color: orange;}
+
+.operator:nth-child(16) {
+    font-size: 20px;
+    background-color: orange;}
+
+.operator:nth-child(20) {
+    font-size: 20px;
+    background-color: orange;}
